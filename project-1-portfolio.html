@@ -1,17 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>My test page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dev Portfolio of Eileah Ohning</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <header>
-    </header>
-    <nav>
-    </nav>
-    <main>
-    </main>
-    <footer>
-    </footer>
+    <div class=container>
+      <header>
+        <div id=logo>
+          <img src="images/eko-logo.png" alt="E K O">
+        </div>
+        <div id=name>
+          <h1>Eileah Kimora Ohning</h1>
+          <h3>Front-End Developer Wizard</h3>
+        </div>
+      </header>
+      <main>
+        <div class=banner>
+          <img src="images/code.jpg" alt="Colorful code on computer screen.">
+        </div>
+        <section class=projects>
+          <div id=projects-header>
+            <h2>Featured Work</h2>
+          </div>
+          <!-- Using div attribute instead of article because no heading is desired in the layout.
+          -->
+          <div id=appify>
+            <img class=a-img src="images/appify-1.jpg" alt="App icons on a smart phone.">
+            <a>Appify</a>
+            <p class=description>
+              When you need all of your apps to talk to each other, turn to Appify.
+            </p>
+          </div>
+          <div id=sunflower>
+            <img class=a-img src="images/sunflower.png" alt="A sunflower.">
+            <a>Sunflower</a>
+            <p class=description>
+              Play a game in the fields with these sunflower friends.
+            </p>
+          </div>
+          <div id=bokeh>
+            <img class=a-img src="images/bokeh.png" alt="Colorful bokeh.">
+            <a>Bokeh</a>
+            <p class=description>
+              Bokeh is an interactive moving picture app for those who desire to be mesmerised.
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
